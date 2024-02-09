@@ -30,14 +30,13 @@
 <body>
   <!-- Aqui cargamos un archivo llamado README.md que esta en la misma ruta que este archivo html, y lo mostramos interpretando el markdown -->
   <zero-md src="README.md">
-      <!-- By default, this style template gets loaded -->
-      <template>
-        <!-- Aqui podemos modificar los estilos para el archivo markdown-->
+      <!-- Asi podemos editar los estilos  -->
+      <template data-merge="append">
         <style>
-          h1{
+          h1 {
             color: red;
           }
-          *{
+          h2{
             background-color: blue;
           }
         </style>
