@@ -1,1 +1,3 @@
-testfile
+Para Generar los articulos del blog usare el comando
+
+markdown <markdown file> <htmlFile> 
